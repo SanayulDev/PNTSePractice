@@ -8,6 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+//THIS IS THE PRODUCT PAGE
 public class ProductsPage {
 	WebDriver driver;
 	
@@ -15,6 +16,7 @@ public class ProductsPage {
 	@FindBy(xpath = "//button[@id='add-to-cart-sauce-labs-bike-light']") WebElement atcBikeLight;
 	@FindBy(xpath = "//*[@id=\"shopping_cart_container\"]/a") WebElement goToCart;
 	
+	//ATC= ADD TO CART
 	public void clickATC() {
 		atcBackpack.click();
 		atcBikeLight.click();
